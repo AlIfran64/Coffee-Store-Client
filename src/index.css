@@ -1,0 +1,16 @@
+/* Font: Rancho */
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+
+/* Font: Railway */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+* {
+  font-family: "Rancho";
+}
+
+.sub-heading {
+  font-family: "Raleway";
+}
