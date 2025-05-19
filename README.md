@@ -1,12 +1,56 @@
-# React + Vite
+# ☕ Coffee Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack coffee management web application where users can **view**, **add**, **edit**, and **delete** coffee items. This project showcases the integration of a modern **React frontend** with a **Node.js + Express backend**, connected via **MongoDB**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Preview
 
-## Expanding the ESLint configuration
+- **Frontend (Client)**: [coffee-store-b3952.web.app](https://coffee-store-b3952.web.app/)
+- **Backend (Server)**: [coffee-store-server-ten-rosy.vercel.app](https://coffee-store-server-ten-rosy.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+### 🔹 Frontend (Client)
+- React.js
+- React Router DOM
+- Tailwind CSS
+- DaisyUI
+- Axios
+- Firebase Hosting
+
+### 🔹 Backend (Server)
+- Node.js
+- Express.js
+- MongoDB (Cloud via MongoDB Atlas)
+- CORS
+- Vercel Deployment
+
+---
+
+## 📦 Features
+
+- 🧾 View a list of coffee items
+- ➕ Add new coffee entries
+- ✏️ Update existing coffee information
+- ❌ Delete a coffee from the list
+- 🌐 Fully responsive design
+- 🔗 Seamless frontend-backend communication
+
+---
+
+## 🧪 How to Run Locally
+
+### Client (Frontend)
+```bash
+cd client
+npm install
+npm run dev
+
+### Client (Backend)
+cd server
+npm install
+nodemon index.js
+
