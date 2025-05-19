@@ -44,7 +44,6 @@ A full-stack coffee management web application where users can **view**, **add**
 
 ### Client (Frontend)
 ```bash
-cd client
 npm install
 npm run dev
 ```
@@ -52,7 +51,6 @@ npm run dev
 
 ### Client (Backend)
 ```bash
-cd server
 npm install
 nodemon index.js
 ```
