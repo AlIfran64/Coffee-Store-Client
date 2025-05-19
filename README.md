@@ -47,9 +47,13 @@ A full-stack coffee management web application where users can **view**, **add**
 cd client
 npm install
 npm run dev
+```
+---
 
 ### Client (Backend)
+```bash
 cd server
 npm install
 nodemon index.js
+```
 
