@@ -23,7 +23,7 @@ const SignUp = () => {
     userSignUp(email, password).then((userCredential) => {
       // Signed up 
       const user = userCredential.user;
-      console.log(user);
+
 
       const userProfile = {
         email,
@@ -33,7 +33,7 @@ const SignUp = () => {
       }
 
       // Save profile info in db
-      fetch('http://localhost:3000/users', {
+      fetch('https://coffee-store-server-ten-rosy.vercel.app/users', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

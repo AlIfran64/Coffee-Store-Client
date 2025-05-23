@@ -29,7 +29,7 @@ const ProductCard = ({ singleProduct, coffees, setCoffees }) => {
       if (result.isConfirmed) {
 
         // Delete 
-        fetch(`http://localhost:3000/coffees/${id}`, {
+        fetch(`https://coffee-store-server-ten-rosy.vercel.app/coffees/${id}`, {
           method: 'DELETE',
         })
           .then(res => res.json())

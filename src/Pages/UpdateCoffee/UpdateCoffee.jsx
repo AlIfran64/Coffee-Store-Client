@@ -6,7 +6,7 @@ const UpdateCoffee = () => {
 
   // load data
   const data = useLoaderData();
-  console.log(data);
+
 
 
   // destructure
@@ -21,10 +21,10 @@ const UpdateCoffee = () => {
     const form = e.target;
     const formData = new FormData(form);
     const updatedCoffee = Object.fromEntries(formData.entries());
-    console.log(updatedCoffee);
+
 
     // send updated data to db
-    fetch(`http://localhost:3000/coffees/${_id}`, {
+    fetch(`https://coffee-store-server-ten-rosy.vercel.app/coffees/${_id}`, {
 
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },

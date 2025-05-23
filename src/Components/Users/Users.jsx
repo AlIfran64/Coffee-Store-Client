@@ -26,7 +26,7 @@ const Users = () => {
       }
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:3000/users/${id}`, {
+        fetch(`https://coffee-store-server-ten-rosy.vercel.app/users/${id}`, {
           method: 'DELETE'
         })
           .then((res) => res.json())
@@ -49,10 +49,10 @@ const Users = () => {
               if (auth.currentUser?.email === email) {
                 userDelete()
                   .then(() => {
-                    console.log("Firebase user deleted");
+
                   })
                   .catch((error) => {
-                    console.error("Firebase user deletion failed", error);
+
                     Swal.fire({
                       icon: "error",
                       title: "Oops...",

@@ -14,14 +14,14 @@ const SignIn = () => {
     const form = e.target;
     const formData = new FormData(form);
     const signInData = Object.fromEntries(formData.entries());
-    console.log(signInData);
+
 
     //firebase sign in
     userSignIn(signInData.email, signInData.password)
       .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
-        console.log(user);
+
 
         const signInInfo = {
           email: signInData.email,
@@ -29,7 +29,7 @@ const SignIn = () => {
         }
 
         // update last sign in user in db
-        fetch('http://localhost:3000/users', {
+        fetch('https://coffee-store-server-ten-rosy.vercel.app/users', {
           method: "PATCH",
           headers: {
             "Content-Type": "application/json",
@@ -37,7 +37,7 @@ const SignIn = () => {
           body: JSON.stringify(signInInfo),
           // …
         }).then((res) => res.json()).then((data) => {
-          console.log(data);
+
 
         })
         // ...
