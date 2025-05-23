@@ -6,8 +6,7 @@ A full-stack coffee management web application where users can **view**, **add**
 
 ## 🚀 Live Preview
 
-- **Frontend (Client)**: [coffee-store-b3952.web.app](https://coffee-store-b3952.web.app/)
-- **Backend (Server)**: [coffee-store-server-ten-rosy.vercel.app](https://coffee-store-server-ten-rosy.vercel.app/)
+- **(Live)**: [coffee-store-b3952.web.app](https://coffee-store-b3952.web.app/)
 
 ---
 
@@ -24,8 +23,6 @@ A full-stack coffee management web application where users can **view**, **add**
 - Node.js
 - Express.js
 - MongoDB (Cloud via MongoDB Atlas)
-- CORS
-- Vercel Deployment
 
 ---
 
