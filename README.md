@@ -4,9 +4,9 @@ A full-stack coffee management web application where users can **view**, **add**
 
 ---
 
-## 🚀 Live Preview
+## 🔗 Live Site
 
-- **(Live)**: [coffee-store-b3952.web.app](https://coffee-store-b3952.web.app/)
+- [coffee-store-b3952.web.app](https://coffee-store-b3952.web.app/)
 
 ---
 
