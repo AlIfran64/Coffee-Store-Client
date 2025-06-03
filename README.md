@@ -1,4 +1,4 @@
-# ☕ Coffee Store
+# ☕ Espresso Emporium - A Coffee Store Website
 
 A full-stack coffee management web application where users can **view**, **add**, **edit**, and **delete** coffee items. This project showcases the integration of a modern **React frontend** with a **Node.js + Express backend**, connected via **MongoDB**.
 
