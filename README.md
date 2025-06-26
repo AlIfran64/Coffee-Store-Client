@@ -13,7 +13,7 @@ A full-stack coffee management web application where users can **view**, **add**
 
 ### 🔹 Frontend (Client)
 - React.js
-- React Router DOM
+- React Router
 - Tailwind CSS
 - DaisyUI
 - Firebase Auth & Hosting
