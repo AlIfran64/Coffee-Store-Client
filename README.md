@@ -9,6 +9,13 @@ A full-stack coffee management web application where users can **view**, **add**
 
 ---
 
+## Server Repository
+
+You can find the server-side code for this project here:  
+👉 [Coffee Store Server](https://github.com/AlIfran64/Coffee-Store-Server)
+
+---
+
 ## 🛠️ Technologies Used
 
 ### 🔹 Frontend (Client)
