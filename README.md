@@ -1,13 +1,18 @@
-# ☕ Coffee Store
+# ☕ Espresso Emporium - A Coffee Store Website
 
 A full-stack coffee management web application where users can **view**, **add**, **edit**, and **delete** coffee items. This project showcases the integration of a modern **React frontend** with a **Node.js + Express backend**, connected via **MongoDB**.
 
+
+## 🔗 Live Site
+
+- 🌐 [coffee-store-b3952.web.app](https://coffee-store-b3952.web.app/)
+
 ---
 
-## 🚀 Live Preview
+## 🖥️ Server Repository
 
-- **Frontend (Client)**: [coffee-store-b3952.web.app](https://coffee-store-b3952.web.app/)
-- **Backend (Server)**: [coffee-store-server-ten-rosy.vercel.app](https://coffee-store-server-ten-rosy.vercel.app/)
+You can find the server-side code for this project here:  
+👉 [Coffee Store Server](https://github.com/AlIfran64/Coffee-Store-Server)
 
 ---
 
@@ -15,7 +20,7 @@ A full-stack coffee management web application where users can **view**, **add**
 
 ### 🔹 Frontend (Client)
 - React.js
-- React Router DOM
+- React Router
 - Tailwind CSS
 - DaisyUI
 - Firebase Auth & Hosting
@@ -24,8 +29,6 @@ A full-stack coffee management web application where users can **view**, **add**
 - Node.js
 - Express.js
 - MongoDB (Cloud via MongoDB Atlas)
-- CORS
-- Vercel Deployment
 
 ---
 
