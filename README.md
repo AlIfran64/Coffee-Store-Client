@@ -1,4 +1,4 @@
-# ☕ Espresso Emporium - A Coffee Store Website
+# Espresso Emporium - A Coffee Store Website
 
 A full-stack coffee management web application where users can **view**, **add**, **edit**, and **delete** coffee items. This project showcases the integration of a modern **React frontend** with a **Node.js + Express backend**, connected via **MongoDB**.
 
@@ -9,41 +9,40 @@ A full-stack coffee management web application where users can **view**, **add**
 
 ---
 
-## 🖥️ Server Repository
+## Technologies Used
 
-You can find the server-side code for this project here:  
-👉 [Coffee Store Server](https://github.com/AlIfran64/Coffee-Store-Server)
-
----
-
-## 🛠️ Technologies Used
-
-### 🔹 Frontend (Client)
+### Frontend (Client)
 - React.js
 - React Router
 - Tailwind CSS
 - DaisyUI
 - Firebase Auth & Hosting
 
-### 🔹 Backend (Server)
+### Backend (Server)
 - Node.js
 - Express.js
 - MongoDB (Cloud via MongoDB Atlas)
 
 ---
 
-## 📦 Features
+## Features
 
-- 🧾 View a list of coffee items
-- ➕ Add new coffee entries
-- ✏️ Update existing coffee information
-- ❌ Delete a coffee from the list
-- 🌐 Fully responsive design
-- 🔗 Seamless frontend-backend communication
+- View a list of coffee items
+- Add new coffee entries
+- Update existing coffee information
+- Delete a coffee from the list
+- Fully responsive design
+- Seamless frontend-backend communication
 
 ---
 
-## 🧪 How to Run Locally
+## 🔗 Additional Links
+
+- Server-side Repository: [https://github.com/AlIfran64/Coffee-Store-Server](https://github.com/AlIfran64/Coffee-Store-Server)
+
+---
+
+## How to Run Locally
 
 ### Client (Frontend)
 ```bash
