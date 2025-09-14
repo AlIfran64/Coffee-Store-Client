@@ -42,7 +42,7 @@ A full-stack coffee management web application where users can **view**, **add**
 
 ---
 
-## How to Run Locally
+## How to Run Locall
 
 ### Client (Frontend)
 ```bash
